@@ -1,0 +1,19 @@
+body {
+    font-family: "SF Pro Text", Inter, sans-serif;
+    margin: auto;
+    width: 750px;
+    line-height: 1.5;
+}
+
+.wrapper {
+    margin: 0 auto;
+    box-shadow: 0 0 15px 5px rgba(200, 200, 200, 0.8);
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-wrapper {
+    text-align: center;
+}
