@@ -1,21 +1,75 @@
+@import "normalize.css";
+html, body {
+    box-sizing: border-box;
+}
+*, *:before, *:after { box-sizing: inherit;  }
+
+html {
+    height:100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+h2 {
+    font-size: 1.43em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4, h5, h6 {
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1.title {
+    font-weight: bold;
+    font-size: 1.95em;
+    line-height: 1.21em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
 body {
     font-family: "SF Pro Text", Inter, sans-serif;
-    margin: auto;
-    width: 50%;
-    line-height: 1.5;
+    min-height:100%;
+    line-height: 1.5em;
+
+    margin: 0;
+    padding: 0;
+
     background-color: rgb(230, 230, 230);
 }
 
-.wrapper {
-    margin: 0 auto;
+#app-container {
     box-shadow: 0 0 15px 5px rgba(200, 200, 200, 0.8);
-    padding-right: 7.5%;
-    padding-left: 7.5%;
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
-    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 50em;
+    min-width: 18.75em;
+    background-color: white;
 }
 
-.header-wrapper {
-    text-align: center;
+#main-content {
+    background-color: rgb(230, 230, 230);
+    background-color: white;
+    padding: 4em;
+    padding-top: 2em;
+}
+
+#app-header {
+    
 }
