@@ -3,6 +3,7 @@ body {
     margin: auto;
     width: 50%;
     line-height: 1.5;
+    background-color: rgb(230, 230, 230);
 }
 
 .wrapper {
@@ -12,6 +13,7 @@ body {
     padding-left: 7.5%;
     padding-top: 7.5%;
     padding-bottom: 7.5%;
+    background-color: rgb(255, 255, 255);
 }
 
 .header-wrapper {
