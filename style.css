@@ -1,0 +1,112 @@
+#wrapper {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    margin: 3rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#lead_in {
+    font-size: 150%;
+    line-height: 150%;
+}
+
+#body {
+    font-size: 100%;
+    line-height: 180%;  
+}
+
+#title img {
+    width: 100%;
+    max-width: 462px;
+    height: auto;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3rem;
+}
+
+#reading img {
+    width: 100%;
+    max-width: 122px;
+    height: auto;
+}
+
+#writing img {
+    width: 100%;
+    max-width: 83px;
+    height: auto;
+}
+
+#art img {
+    width: 100%;
+    max-width: 83px;
+    height: auto;
+}
+
+#reading, #writing, #art {
+    text-align: right;
+    width: 100%
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#figma_link a:hover {
+    text-decoration-color: blue;
+}
+
+#square_link a:hover {
+    text-decoration-color: black;
+}
+
+#usc_link a:hover {
+    text-decoration-color: red;
+}
+
+@media only screen and (max-width: 415px) {
+    #lead_in {
+        font-size: 125%;
+        line-height: 125%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #wrapper {
+        display: flex;
+        margin: 10rem;
+    }
+
+    #left {
+        width: 55%; 
+        margin-right: 15%;
+    }
+
+    #right {
+        width: 15%;
+        margin-left: 15%;
+    }
+
+    #reading {
+        width: 100%;
+    }
+
+    #writing {
+        width: 100%;
+    }
+
+    #art {
+        width: 100%;
+    }
+}
