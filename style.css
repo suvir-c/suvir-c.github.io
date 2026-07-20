@@ -3,7 +3,7 @@ body {
 }
 
 #wrapper {
-    font-family: Lora;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     margin: 3rem;
@@ -51,10 +51,11 @@ body {
     }
 }
 
-#title img {
-    width: 100%;
-    max-width: 462px;
-    height: auto;
+#title {
+    font-size: clamp(2.5rem, 9vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
 }
 
 #right {
