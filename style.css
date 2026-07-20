@@ -1,11 +1,12 @@
 body {
-    background-color: #fdfbf6;
+    background-color: #000;
 }
 
 #wrapper {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
+    color: #eae7e0;
     margin: 3rem;
     margin-top: 7rem;
     display: flex;
@@ -61,7 +62,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #eae7e0;
 }
 
 a:hover {
@@ -73,7 +74,7 @@ a:hover {
 }
 
 #square_link a:hover {
-    text-decoration-color: black;
+    text-decoration-color: #eae7e0;
 }
 
 #usc_link a:hover {
