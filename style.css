@@ -1,3 +1,7 @@
+body {
+    background-color: #faf5ec;
+}
+
 #wrapper {
     font-family: Lora;
     font-style: normal;
@@ -16,6 +20,35 @@
 #body {
     font-size: 100%;
     line-height: 180%;  
+}
+
+#ellipsis span {
+    opacity: 0;
+    animation: ellipsis-fade 2.4s infinite;
+}
+
+#ellipsis span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+#ellipsis span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+#ellipsis span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes ellipsis-fade {
+    0% {
+        opacity: 0;
+    }
+    25%, 60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 #title img {
