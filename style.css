@@ -1,7 +1,12 @@
+body {
+    background-color: #000;
+}
+
 #wrapper {
-    font-family: Lora;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
+    color: #eae7e0;
     margin: 3rem;
     margin-top: 7rem;
     display: flex;
@@ -9,7 +14,7 @@
 }
 
 #lead_in {
-    font-size: 150%;
+    font-size: 125%;
     line-height: 150%;
 }
 
@@ -18,10 +23,11 @@
     line-height: 180%;  
 }
 
-#title img {
-    width: 100%;
-    max-width: 462px;
-    height: auto;
+#title {
+    font-size: clamp(2.5rem, 9vw, 3.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
 }
 
 #right {
@@ -56,7 +62,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: #eae7e0;
 }
 
 a:hover {
@@ -68,7 +74,7 @@ a:hover {
 }
 
 #square_link a:hover {
-    text-decoration-color: black;
+    text-decoration-color: #eae7e0;
 }
 
 #usc_link a:hover {
